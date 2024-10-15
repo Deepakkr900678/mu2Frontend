@@ -1,0 +1,26 @@
+.resetcard {
+  text-align: center;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 36%;
+  margin-right: 36%;
+
+  display: flex;
+  border-radius: 25px;
+  -webkit-box-shadow: 2px 3px 26px -9px rgba(0, 0, 0, 0.75);
+}
+
+.logo-reset {
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .resetcard {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}

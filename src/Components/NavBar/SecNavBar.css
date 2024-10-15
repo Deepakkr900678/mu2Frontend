@@ -1,0 +1,120 @@
+body {
+  background-color: #0000;
+  /* min-height: 500vh; */
+}
+.navbar-brand {
+  padding: 0 !important;
+}
+a:not([href]) {
+  color: #222224;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Gotham;
+}
+
+a:not([href]):hover {
+  color: #e31138;
+  text-decoration: none;
+}
+
+.sec-portal {
+  display: flex;
+  align-content: center;
+  padding-right: 400px;
+}
+
+.hello {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 10px 15px;
+  z-index: 10000;
+}
+
+.scroll {
+  padding: 5px 15px;
+  background-color: #fff;
+  border-bottom: 0 solid white;
+  box-shadow: 2px 2px rgb(122 117 117 / 0.1);
+}
+
+.hello .logo {
+  position: relative;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 2em;
+  text-transform: uppercase;
+  transition: 0.6s;
+  color: #ffffff;
+}
+
+.hello ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello ul li {
+  position: relative;
+  list-style: none;
+}
+
+.hello ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+  font-family: "Gotham";
+  text-transform: uppercase;
+}
+
+/* .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(./banner-slide.jpg);
+    background-size: cover;
+  } */
+
+.scroll ul li a {
+  color: rgba(10, 10, 10, 0.8) !important;
+}
+
+.scroll .logo {
+  color: #000;
+}
+
+.middle-main {
+  position: relative;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: medium;
+}
+
+.middle-main:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -10px;
+  left: 0;
+  background-color: #e31138;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.middle-main:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}

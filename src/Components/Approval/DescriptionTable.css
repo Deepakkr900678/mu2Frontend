@@ -1,0 +1,5 @@
+.card-container:hover {
+  border-width: 4px; /* Increase border width on hover */
+  border-top-right-radius: 0; /* Adjust top-right corner border radius on hover */
+  border-bottom-left-radius: 0; /* Adjust bottom-left corner border radius on hover */
+}

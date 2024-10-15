@@ -1,0 +1,186 @@
+.component {
+  background-color: #f3f3f3;
+  height: 215px;
+  position: relative;
+  width: 500px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.componentMobile {
+  background-color: #f3f3f3;
+  height: 215px;
+  position: relative;
+  width: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.component:hover,
+.componentMobile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+}
+
+.component .logo,
+.componentMobile .logo {
+  height: 38px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 127px;
+}
+
+.component .rectangle,
+.componentMobile .rectangle {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 198px;
+  width: 368px;
+
+  border-radius: 0 0 0 15px;
+}
+
+.component .img,
+.componentMobile .img {
+  height: 17px;
+  left: 403px;
+  position: absolute;
+  top: 198px;
+  width: 97px;
+
+  border-radius: 0 0 15px 0;
+}
+
+.component .rectangle-2,
+.componentMobile .rectangle-2 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 173px;
+  width: 180px;
+}
+
+.component .rectangle-3,
+.componentMobile .rectangle-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 75px;
+}
+
+.component .div,
+.componentMobile .div {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 144px;
+  top: 97px;
+  width: 275px;
+}
+
+.component .rectangle-4,
+.componentMobile .rectangle-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 121px;
+}
+
+.component .rectangle-5,
+.componentMobile .rectangle-5 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 144px;
+}
+
+.component .rectangle-6,
+.componentMobile .rectangle-6 {
+  background-color: #d9d9d9;
+  height: 118px;
+  left: 364px;
+  position: absolute;
+  top: 16px;
+  width: 112px;
+}
+
+.component .p,
+.componentMobile .p {
+  color: #e31138;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 124px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 144px;
+  width: 285px;
+}
+
+.component .text-wrapper-4,
+.componentMobile .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 124px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 75px;
+}
+
+.component .text-wrapper-5,
+.componentMobile .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 125px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 97px;
+}
+
+.component .text-wrapper-6,
+.componentMobile .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 125px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 119px;
+}

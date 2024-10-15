@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* body {
+  margin: 0;
+  font-family: "Raleway", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+.suspended-row {
+  color: #e31138;
+  font-weight: bold;
+  border-color: #e31138;
+  border: "2px" solid red;
+}
+
+.searchIcon {
+  &:hover {
+    color: #e31138;
+  }
+}
+.ant-spin-dot-item {
+  background-color: #e31138 !important;
+}
